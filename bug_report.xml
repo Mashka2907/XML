@@ -1,1 +1,13 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+    <bug_report>
+        <Summary>User Info: The 'Undo' button is disabled after clicking the 'Save' button</Summary>
+	      <Pre-conditions>The UserB was created</Pre-conditions>
+	      <STR>1.Log in under UserB</STR>
+        <STR>2.Select the 'User Info' tab</STR>
+        <STR>3.Edit the information from'User Name' field</STR>
+        <STR>4.Click the 'Save' button</STR>
+        <STR>5.Navigate to the 'Undo' button</STR>
+	      <ACT>The 'Undo' button is disabled after clicking the 'Save' button</ACT>
+	      <EXP>The 'Undo' button is activated after clicking the 'Save' button</EXP>
+	      <Priority>Medium</Priority>
+    </bug_report>           
